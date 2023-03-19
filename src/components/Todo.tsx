@@ -19,7 +19,7 @@ const Todo: React.FC = () => {
   return (
     <>
       <h1>Todos</h1>
-      <button onClick={getTodos}>Listar todos</button>
+      <button onClick={getTodos}>List todos</button>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>{todo.title}</li>
